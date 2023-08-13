@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=general-sans@500,600,400,700&display=swap"
+      rel="stylesheet" />
+
+    <meta name="description" content="My Portfolio website" />
+    <meta name="keywords" content="web design, html, css, js" />
+
+    <title>contact</title>
+  </head>
+  <body>
+    
+    <header class="header container">
+      <a href="../index.html" ><img src="../public/logo_in.svg" alt="logo" class="logo"></a>
+      
+
+      <ul class="header__menu">
+        <li><a href="../index.html#portfolio">Portfolio</a></li>
+        <li><a href="../index.html#about">About</a></li>
+        <li><a href="../index.html#contact">Contact</a></li>
+      </ul>  
+      <button class="header__menu_2">
+        <a class="header__resume btn" href="/product_design.pdf">Resume</a>
+      </button>
+      
+      
+
+      <button aria-label="mobile nav button" class="header__bars">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="currentColor"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z"
+            clip-rule="evenodd"
+          />
+        </svg>
+      </button>
+
+    </header>
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav">
+      <nav>
+        <ul class="mobile-nav__menu">
+          <li>
+            <a class="mobile-nav__link" href="../index.html#portfolio">Portfolio</a>
+            <hr>
+          </li>
+          <li>
+            <a class="mobile-nav__link" href="../index.html#about">About</a>
+            <hr>
+          </li>
+          <li>
+            <a class="mobile-nav__link" href="../index.html#contact">Contact</a>
+            <hr>
+          </li>
+          <li class="mobile-nav__link-line"></li>
+          
+          <li>
+            <a class="mobile-nav__btn btn" href="/product_design.pdf">Resume</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <!-- End of Mobile Navigation -->
+    <section class="contact_page container">
+      <div class="layout">
+        <div class="cfields">
+          <form method="post" action="mailto:alawodeolawale@gmail.com">
+
+            <div><input type="text" class="ffield" name="firstname" placeholder="Type your Name..."></div>
+            <div><input type="text" class="ffield" name="email" placeholder="Enter email address..."></div>
+            <div><textarea class="ccarea" id="texta" name="subject" placeholder="Write your Message.."></textarea></div>
+            <a class="btn" type="submit"  method="get" value="Send Email">Send </a>
+          </form>
+        </div>
+      </div>
+    </section>
+    
+  <footer class="footer footer_contact_page container section">
+    <h3 class="footer__title">~ EMMANUEL ALAWODE~</h3>
+  </footer>
+
+
+
+    <script type="module" src="../scr/main.js"></script>
+  </body>
+</html>
